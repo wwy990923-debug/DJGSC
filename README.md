@@ -220,14 +220,14 @@ The following files are required:
 
 ```text
 yaleborigin.mat
-GLSRC2.m
+DJGSC.m
 fista_lasso.m
 ```
 
 If any function is missing, MATLAB may report an error such as:
 
 ```text
-Undefined function or variable 'GLSRC2'
+Undefined function or variable 'DJGSC'
 ```
 
 In this case, check whether the corresponding `.m` file exists and whether its folder has been added to the MATLAB path.
