@@ -262,7 +262,7 @@ The main workflow of the code is:
 1. Load the Extended Yale B dataset.
 2. Set experimental parameters.
 3. Construct training and testing sets.
-4. Compute representation coefficients using `GLSRC2`.
+4. Compute representation coefficients using `DJGSC`.
 5. Classify test samples by minimum reconstruction residual.
 6. Calculate classification accuracy.
 7. Repeat the experiment several times.
