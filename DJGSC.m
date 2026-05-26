@@ -32,7 +32,7 @@ while iter<maxIter
         Yi = Y(idx, :); 
         Ui = U(idx, :);
         all_indices = 1:size(F, 1); 
-        remaining_idx = setdiff(idx,all_indices); 
+        remaining_idx = setdiff(all_indices,idx); 
         Xj = X(remaining_idx,:);
         Si = S(:,idx);
         Sj = S(:,remaining_idx);
